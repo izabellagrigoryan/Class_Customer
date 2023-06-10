@@ -4,20 +4,21 @@
 #include <iostream>
 #include <string>
 class Person {
-    char firstname[25];
-    char surname[25];
-    char patronymic[25];
+    std::string firstname;
+    std::string surname;
+    std::string patronymic;
 
-    char birthday[15];
-    char address[50];
-    char phone[15];
+    std::string birthday;
+    std::string address;
+    std::string phone;
 
-    char passportID[10];
-    char socialcard[10];
+    std::string passportID;
+    std::string socialcard;
 };
 
 int main()
 {
     Person person;
+    return 0;
 }
 
